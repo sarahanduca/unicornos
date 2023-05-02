@@ -52,7 +52,6 @@ export default function PatchDisplay({
           autor: {author}{" "}
           {rating && `- rating: ${displayRate(parseInt(rating))}`}
         </span>
-        <br />
         {file ? (
           <a className="font-semibold" target="_blank" href={file}>
             Download 📦

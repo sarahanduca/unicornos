@@ -6,6 +6,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Unicornos</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className="px-2 pt-10 h-40 text-center">
         <h1 className="text-3xl sm:text-4xl">Unicornos 🦄</h1>

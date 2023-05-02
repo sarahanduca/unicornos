@@ -51,7 +51,7 @@ export default function PatchNotes() {
       <PatchDisplay
         version="c"
         date="26/04/2023"
-        description="Por algum motivo o querido sushi quis se intrometer e colocar mais não sei oq la nesse zip, pra ser sincera aprender a compactar mod semana passada e agora estamos todos sofrendo com isso"
+        description="Por algum motivo o querido sushi quis se intrometer e colocar mais não sei oq la nesse zip, pra ser sincera aprenderam a compactar mod semana passada e agora estamos todos sofrendo com isso"
         tags={["🔪", "🍣", "🤡"]}
         rating="1"
         author="sushi"
