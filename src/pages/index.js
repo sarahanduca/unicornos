@@ -7,13 +7,15 @@ export default function Home() {
       <Head>
         <title>Unicornos</title>
       </Head>
-      <header className="pt-10 h-40 text-center">
-        <h1 className="text-4xl">Unicornos 🦄</h1>
+      <header className="px-2 pt-10 h-40 text-center">
+        <h1 className="text-3xl sm:text-4xl">Unicornos 🦄</h1>
         <br />
-        <span>somos cavalos de troia 🐎 (cornos) e gays 🌈 (unicornos)</span>
+        <span className="">
+          somos cavalos de troia 🐎 (cornos) e gays 🌈 (unicornos)
+        </span>
       </header>
       <main className="flex justify-center">
-        <div className=" w-1/2">
+        <div className="w-2/3 md:w-1/2">
           <PatchNotes />
         </div>
       </main>
