@@ -73,6 +73,19 @@ export default function PatchNotes() {
         rating="5"
         file="https://drive.google.com/file/d/1UaWNblINCrhbLoq61V71lqH3AgedAIgE/view?usp=sharing"
       />
+      <PatchDisplay
+        version="f.2"
+        date="06/03/2024"
+        description="o joão adicionou mais alguma coisa (pq sim) que nenhum de nós sabemos exatamente oq é"
+        tags={[
+          "de fato não foi o fim",
+          "e la vamos nós",
+          "começando do zero 😭😭😭",
+        ]}
+        author="babo"
+        rating="1"
+        file="https://drive.google.com/file/d/199io4emG6I22DeFopa-k1HYxwArrwY1V/view?usp=sharing"
+      />
     </div>
   );
 }
