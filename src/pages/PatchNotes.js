@@ -76,11 +76,36 @@ export default function PatchNotes() {
       <PatchDisplay
         version="f.2"
         date="06/03/2024"
-        description="o joão adicionou mais alguma coisa (pq sim) que nenhum de nós sabemos exatamente oq é"
+        description={
+          <div>
+            <h3 className="text-lg">Mods Adicionados</h3>
+            <ul className="list-disc pl-4">
+              <li>
+                <a
+                  className="underline decoration-sky-500"
+                  href="https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing"
+                  target="_blank"
+                >
+                  Industrial Foregoing 1.19.2-3.32.3-7{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="underline decoration-indigo-500"
+                  href="https://www.curseforge.com/minecraft/mc-mods/titanium/files"
+                  target="_blank"
+                >
+                  Titanium 1.19.2-3.7.4-30
+                </a>
+              </li>
+            </ul>
+          </div>
+        }
         tags={[
           "de fato não foi o fim",
           "e la vamos nós",
           "começando do zero 😭😭😭",
+          "ideia jo joao ✨",
         ]}
         author="babo"
         rating="1"
